@@ -63,7 +63,7 @@ font-weight: 500;
   color: rgb(113, 113, 113);
 }
 .Credits a:hover {
-color: #14b0fe;
+color: #feac14;
 }
 
 .ConnectError {
@@ -186,7 +186,7 @@ color: #14b0fe;
 }
 
 .intro-Progress {
-  stroke: #56c4fb;
+  stroke: #feac14;
   stroke-width: 8px;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -194,7 +194,7 @@ color: #14b0fe;
   stroke-dashoffset: 0;
 }
 .progressElmstart {
-  stroke: #56c4fb;
+  stroke: #feac14;
   stroke-width: 8px;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -246,19 +246,19 @@ color: #14b0fe;
   text-anchor: end;
 }
 #upSymbolDesk {
-  fill: #14b0fe;
+  fill: #feac14;
   display: none;
 }
 #downSymbolDesk {
-  fill: #14b0fe;
+  fill: #feac14;
   display: none;
 }
 #upSymbolMob {
-  fill: #14b0fe;
+  fill: #feac14;
   display: none;
 }
 #downSymbolMob {
-  fill: #14b0fe;
+  fill: #feac14;
   display: none;
 }
 
@@ -290,7 +290,7 @@ color: #14b0fe;
 .spinner > div {
   width: 20px;
   height: 20px;
-  background-color: #2196f3;
+  background-color: #feac14;
 
   border-radius: 100%;
   display: inline-block;
