@@ -379,7 +379,7 @@
 				<g id="intro-Mob">
 					<use id="nightmode-Mob"  class="darkmode" onclick="toggleSkin()" xlink:href="#dark" x="10" y="25" width="30" height="30"></use>
 					<use id="daymode-Mob"  class="darkmode" onclick="toggleSkin()" xlink:href="#light" x="10" y="25" width="30" height="30"></use>
-					<use id="logo-Desk" xlink:href="#logo" x="38" y="110" width="218.8" height="50.22"></use>
+                    <use id="logo-Desk" xlink:href="#logo" x="95" y="90" width="226.8" height="135"></use>
 					<use id="deskStartMob" class="deskStart" xlink:href="#mainGaugebg" x="11.18" y="12" width="273.94" height="245.39"></use>
 					<use id="startButtonMob" class="startButton" xlink:href="#playButton" x="125" y="280" width="50.2" height="50.2">
 						<title id="title1">Clique aqui para executar o teste</title>
