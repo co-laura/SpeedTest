@@ -270,7 +270,7 @@ l-40 0 0 45 c0 41 -2 45 -25 45 -23 0 -25 -4 -25 -45z"/>
 		</symbol>
 		<a id="resultsData">
 			<svg class="Desktop" viewBox="0 0 586 346">
-				<title id="title1">Instituto Laura Fressatto</title>
+				<title id="title1">Teste velocidade de internet</title>
 				<g id="UI-Desk">
 					<use id="mainGaugebg-Desk" class="main-Gaugebg" xlink:href="#mainGaugebg" x="10.28" y="36.11" width="273.94" height="245.39"></use>
 					<use id="mainGaugeBlue-Desk" class="main-GaugeBlue" xlink:href="#mainGaugeBlue" x="10.28" y="36.11" width="273.94" height="245.39"></use>
@@ -377,7 +377,7 @@ l-40 0 0 45 c0 41 -2 45 -25 45 -23 0 -25 -4 -25 -45z"/>
 				</g>
 			</svg>
 			<svg class="Mobile" viewBox="0 0 295.9 363.3">
-				<title id="title1">Instituto Laura Fressatto</title>
+				<title id="title1">Teste de velocidade de internet</title>
 				<g id="UI-Mob">
 					<use id="mainGaugebg-Mob" class="main-Gaugebg" xlink:href="#mainGaugebg" x="11.18" y="12" width="273.94" height="245.39"></use>
 					<use id="mainGaugeBlue-Mob" class="main-GaugeBlue" xlink:href="#mainGaugeBlue" x="11.18" y="12" width="273.94" height="245.39"></use>
