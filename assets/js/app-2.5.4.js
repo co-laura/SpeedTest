@@ -857,10 +857,11 @@ window.onload = function() {
         }
       }
     }
-    var osttm = "\u2122";
-    var myname = "InstitutoLaura";
-    var com = ".org";
-    var ost = myname + osttm;
+
+    var myname = "OpenSpeedTest";
+    var com = ".com";
+    var ost = myname;
+
     function hiEnter(e) {
       if (e.key === "Enter") {
         runTasks();
@@ -1005,13 +1006,13 @@ window.onload = function() {
         }
         if (Status === "SendR") {
           Show.showStatus("Finalizado");
-          var dummyElement = document.createElement("div");
-          dummyElement.innerHTML = '<a xlink:href="https://openspeedtest.com?ref=Self-Hosted-Outro&run=5" style="cursor: pointer" target="_blank"></a>';
-          var htmlAnchorElement = dummyElement.querySelector("a");
-          Show.oDoLiveSpeed.el.textContent = ost;
+          //var dummyElement = document.createElement("div");
+          //dummyElement.innerHTML = '<a xlink:href="https://openspeedtest.com?ref=Self-Hosted-Outro&run=5" style="cursor: pointer" target="_blank"></a>';
+          //var htmlAnchorElement = dummyElement.querySelector("a");
+          Show.oDoLiveSpeed.el.textContent = "Instituto Laura";
           var circleSVG = document.getElementById("oDoLiveSpeed");
           htmlAnchorElement.innerHTML = circleSVG.innerHTML;
-          circleSVG.innerHTML = dummyElement.innerHTML;
+         // circleSVG.innerHTML = dummyElement.innerHTML;
           if (location.hostname != myname.toLowerCase() + com) {
             //saveTestData = "https://" + myname.toLowerCase() + com + "/results/show.php?" + "&d=" + downloadSpeed.toFixed(3) + "&u=" + uploadSpeed.toFixed(3) + "&p=" + pingEstimate + "&j=" + jitterEstimate + "&dd=" + (dataUsedfordl / 1048576).toFixed(3) + "&ud=" + (dataUsedforul / 1048576).toFixed(3) + "&ua=" + userAgentString;
             //saveTestData = encodeURI(saveTestData);
