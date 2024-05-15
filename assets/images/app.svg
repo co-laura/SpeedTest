@@ -277,7 +277,7 @@
 					</use>
 				</g>
 				<g id="intro-Desk">
-					<use id="logo-Desk" xlink:href="#logo" x="35" y="140" width="222.8" height="50.22"></use>
+                    <use id="logo-Desk" xlink:href="#logo" x="95" y="90" width="226.8" height="135"></use>
 					<use id="deskStart" class="deskStart" xlink:href="#mainGaugebg" x="10.28" y="36.11" width="273.94" height="245.39"></use>
 					<use xlink:href="#resultCard" class="Cards" x="307.4" y="31" width="278.1" height="85.5"></use>
 					<use xlink:href="#resultCard" class="Cards" x="307.4" y="228.5" width="278.1" height="85.5"></use>
