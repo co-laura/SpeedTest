@@ -816,7 +816,7 @@ window.onload = function() {
         Show.userInterface();
         init = false;
         var AutoTme = Math.ceil(Math.abs(OpenSpeedTestStart));
-        Show.showStatus("Automatic Test Starts in ...");
+        Show.showStatus("Iniciando testes em ...");
         var autoTest = setInterval(countDownF, 1000);
       }
       function countDownF() {
