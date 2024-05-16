@@ -1,11 +1,3 @@
-/*
-     Official Website : https://OpenSpeedTest.COM | Email: support@openspeedtest.com
-     Developed by : Vishnu | https://Vishnu.Pro | Email : me@vishnu.pro 
-     Like this Project? Please Donate NOW & Keep us Alive -> https://go.openspeedtest.com/Donate
-    Speed Test by OpenSpeedTest™️ is Free and Open-Source Software (FOSS) with MIT License.
-    Read full license terms @ http://go.openspeedtest.com/License
-    If you have any Questions, ideas or Comments Please Send it via -> https://go.openspeedtest.com/SendMessage
-*/ 
 window.onload = function() {
   var appSVG = document.getElementById("OpenSpeedTest-UI");
   appSVG.parentNode.replaceChild(appSVG.contentDocument.documentElement, appSVG);
@@ -153,7 +145,6 @@ window.onload = function() {
     this.UI_Mob.fade("in", 1000, uiLoaded);
     function uiLoaded(argument) {
       Status = "Loaded";
-      console.log("Developed by Vishnu. Email --\x3e me@vishnu.pro");
     }
   };
   openSpeedtestShow.prototype.Symbol = function(dir) {
@@ -809,7 +800,7 @@ window.onload = function() {
     var requestIP = false;
     function ShowIP() {
       if (requestIP) {
-        Show.YourIP.el.textContent = "Please wait..";
+        Show.YourIP.el.textContent = "Aguarde..";
         ServerConnect(7);
         requestIP = false;
       }
@@ -843,7 +834,7 @@ window.onload = function() {
       }
       if (openSpeedTestServerList === "fetch" && launch === true) {
         launch = false;
-        Show.showStatus("Fetching Server Info..");
+        Show.showStatus("Buscando informações do servidor..");
         ServerConnect(6);
       }
       if (launch === true) {
@@ -905,10 +896,10 @@ window.onload = function() {
         }
         if (Status === "Ping") {
           Status = "busy";
-          Show.showStatus("Milliseconds");
+          Show.showStatus("Milisegundos");
         }
         if (Status === "Download") {
-          Show.showStatus("Initializing..");
+          Show.showStatus("Iniciando..");
           Get.reset();
           reSett();
           Show.reset();
@@ -920,7 +911,7 @@ window.onload = function() {
           Show.Symbol(0);
           if (Startit == 0) {
             Startit = 1;
-            Show.showStatus("Testing download speed..");
+            Show.showStatus("testando velocidade de download..");
             var extraTime = (window.performance.now() - downloadTime) / 1000;
             dReset = extraTime;
             Show.progress(1, dlDuration + 2.5);
@@ -936,7 +927,7 @@ window.onload = function() {
           if (downloadTimeing >= dlDuration && ProG == "done") {
             if (SelectTest) {
               Show.GaugeProgresstoZero(currentSpeed, "SendR");
-              Show.showStatus("All done");
+              Show.showStatus("Finalizado");
               Show.Symbol(2);
             } else {
               Show.GaugeProgresstoZero(currentSpeed, "Upload");
@@ -953,7 +944,7 @@ window.onload = function() {
           if (stop === 1) {
             Show.Symbol(1);
             Status = "initup";
-            Show.showStatus("Initializing..");
+            Show.showStatus("Iniciando..");
             Show.LiveSpeed("...", "speedToZero");
             SendData = Get.uRandom(ulDataSize, readyToUP);
             if (SelectTest) {
@@ -964,7 +955,7 @@ window.onload = function() {
         if (Status === "Uploading") {
           if (Startit == 1) {
             Startit = 2;
-            Show.showStatus("Testing upload speed..");
+            Show.showStatus("Testando velocidade de upload..");
             currentSpeed = 0;
             Get.reset();
             Show.reset();
@@ -985,14 +976,14 @@ window.onload = function() {
             Show.uploadResult(uploadSpeed);
             Show.GaugeProgresstoZero(currentSpeed, "SendR");
             SendData = undefined;
-            Show.showStatus("All done");
+            Show.showStatus("Finalizado");
             Show.Symbol(2);
             Status = "busy";
             stop = 0;
           }
         }
         if (Status === "Error") {
-          Show.showStatus("Check your network connection status.");
+          Show.showStatus("Verifique sua conexão.");
           Show.ConnectionError();
           Status = "busy";
           clearInterval(Engine);
@@ -1005,14 +996,14 @@ window.onload = function() {
           circleSVG.innerHTML = dummyElement.innerHTML;
         }
         if (Status === "SendR") {
-          Show.showStatus("All done");
-          var dummyElement = document.createElement("div");
-          dummyElement.innerHTML = '<a xlink:href="https://openspeedtest.com?ref=Self-Hosted-Outro&run=5" style="cursor: pointer" target="_blank"></a>';
-          var htmlAnchorElement = dummyElement.querySelector("a");
-          Show.oDoLiveSpeed.el.textContent = ost;
-          var circleSVG = document.getElementById("oDoLiveSpeed");
-          htmlAnchorElement.innerHTML = circleSVG.innerHTML;
-          circleSVG.innerHTML = dummyElement.innerHTML;
+          Show.showStatus("Finalizado");
+          //var dummyElement = document.createElement("div");
+          //dummyElement.innerHTML = '<a xlink:href="https://openspeedtest.com?ref=Self-Hosted-Outro&run=5" style="cursor: pointer" target="_blank"></a>';
+          //var htmlAnchorElement = dummyElement.querySelector("a");
+          Show.oDoLiveSpeed.el.textContent = "Instituto Laura";
+          //var circleSVG = document.getElementById("oDoLiveSpeed");
+          //htmlAnchorElement.innerHTML = circleSVG.innerHTML;
+          //circleSVG.innerHTML = dummyElement.innerHTML;
           if (location.hostname != myname.toLowerCase() + com) {
             saveTestData = "https://" + myname.toLowerCase() + com + "/results/show.php?" + "&d=" + downloadSpeed.toFixed(3) + "&u=" + uploadSpeed.toFixed(3) + "&p=" + pingEstimate + "&j=" + jitterEstimate + "&dd=" + (dataUsedfordl / 1048576).toFixed(3) + "&ud=" + (dataUsedforul / 1048576).toFixed(3) + "&ua=" + userAgentString;
             saveTestData = encodeURI(saveTestData);
